@@ -48,7 +48,7 @@ public class Calculator {
     public void printGrades(){
         System.out.println("Nombre del estudiante: " + name);
 
-        for(int i = 0; i>5; i++){
+        for(int i = 0; i>myGrades.length; i++){
             System.out.println("Calificacion "+ i + "{"+ myGrades[i]+"}")
         }
         System.out.println("Promedio: {" + getAverage()+ "}");
