@@ -47,11 +47,10 @@ public class Calculator {
 
     public void printGrades(){
         System.out.println("Nombre del estudiante: " + name);
-        System.out.println("Calificación 1: {" + myGrades[0]+ "}");
-        System.out.println("Calificación 2: {" + myGrades[1]+ "}");
-        System.out.println("Calificación 3: {"+ myGrades[2]+ "}");
-        System.out.println("Calificación 4: {" + myGrades[3]+ "}");
-        System.out.println("Calificación 5: {" + myGrades[4]+ "}");
+
+        for(int i = 0; i>5; i++){
+            System.out.println("Calificacion "+ i + "{"+ myGrades[i]+"}")
+        }
         System.out.println("Promedio: {" + getAverage()+ "}");
         System.out.println("Calificación: {" + giveGrade()+ "}");
     }
